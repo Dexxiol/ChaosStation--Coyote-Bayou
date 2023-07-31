@@ -6,7 +6,7 @@ DAMAGE_MULTIPLIER 1
 ## REVIVAL ###
 
 ## whether pod plants work or not
-#REVIVAL_POD_PLANTS
+REVIVAL_POD_PLANTS
 
 ## whether cloning tubes work or not
 REVIVAL_CLONING
@@ -20,7 +20,7 @@ OOC_DURING_ROUND
 
 ## EMOJI ###
 ## Comment this out if you want to disable emojis
-#EMOJIS
+EMOJIS
 
 ## MOB MOVEMENT ###
 
@@ -242,7 +242,7 @@ BROTHER_OBJECTIVES_AMOUNT 2
 #PROTECT_ROLES_FROM_ANTAGONIST
 
 ## Uncomment to prohibit assistants from becoming most antagonists.
-#PROTECT_ASSISTANT_FROM_ANTAGONIST
+PROTECT_ASSISTANT_FROM_ANTAGONIST
 
 ## If non-human species are barred from joining as a head of staff
 #ENFORCE_HUMAN_AUTHORITY
@@ -283,7 +283,7 @@ EVENTS_MIN_PLAYERS_MUL 1
 ## AI ###
 
 ## Allow the AI job to be picked.
-#ALLOW_AI
+ALLOW_AI
 
 ## Allow the AI Multicamera feature to be used by AI players
 ALLOW_AI_MULTICAM
@@ -297,7 +297,7 @@ ALLOW_AI_MULTICAM
 #WEAKEN_SECBORG
 
 ## Uncomment to prevent the security cyborg module from being chosen
-DISABLE_SECBORG
+#DISABLE_SECBORG
 
 ## Determines the minimum alert level for the security cyborg model to be chosen
 ## 0: Green, 1:Blue, 2:Amber, 3:Red, 4:Delta
@@ -335,13 +335,13 @@ MINIMAL_ACCESS_THRESHOLD 0
 #JOBS_HAVE_MINIMAL_ACCESS
 
 ## Uncomment to give assistants maint access.
-#ASSISTANTS_HAVE_MAINT_ACCESS
+ASSISTANTS_HAVE_MAINT_ACCESS
 
 ## Uncoment to give security maint access. Note that if you dectivate JOBS_HAVE_MINIMAL_ACCESS security already gets maint from that.
-#SECURITY_HAS_MAINT_ACCESS
+SECURITY_HAS_MAINT_ACCESS
 
 ## Uncomment to give everyone maint access.
-#EVERYONE_HAS_MAINT_ACCESS
+EVERYONE_HAS_MAINT_ACCESS
 
 ## Comment this out this to make security officers spawn in departmental security posts
 SEC_START_BRIG
@@ -349,7 +349,7 @@ SEC_START_BRIG
 
 ## GHOST INTERACTION ###
 ## Uncomment to let ghosts spin chairs. You may be wondering why this is a config option. Don't ask.
-#GHOST_INTERACTION
+GHOST_INTERACTION
 
 ## NON-VOCAL SILICONS ###
 ## Uncomment these to stop the AI, or cyborgs, from having vocal communication.
@@ -361,7 +361,7 @@ SEC_START_BRIG
 ## If you find that your players are abusing the sandbox panel, this option may slow them down
 ## without preventing people from using it properly.
 ## Only functions in sandbox game mode.
-#SANDBOX_AUTOCLOSE
+SANDBOX_AUTOCLOSE
 
 ## ROUNDSTART SILICON LAWS ###
 ## This controls what the AI's laws are at the start of the round.
@@ -498,7 +498,7 @@ ROUNDSTART_RACES shadekin
 ##-------------------------------------------------------------------------------------------
 
 ## Uncomment to give players the choice of joining as a human with mutant bodyparts before they join the game
-#JOIN_WITH_MUTANT_HUMANS
+JOIN_WITH_MUTANT_HUMANS
 
 ##Overflow job. Default is assistant
 OVERFLOW_JOB Wastelander
@@ -511,7 +511,7 @@ OVERFLOW_CAP -1
 #STARLIGHT
 
 ## Uncomment to bring back old grey suit assistants instead of the now default rainbow colored assistants.
-#GREY_ASSISTANTS
+GREY_ASSISTANTS
 
 ## Midround Antag (aka Mulligan antag) config options ###
 
@@ -599,7 +599,7 @@ IC_PRINTING
 ROUNDSTART_TRAITS
 
 ## Uncomment to disable human moods.
-#DISABLE_HUMAN_MOOD
+DISABLE_HUMAN_MOOD
 
 ## Enable night shifts ##
 #ENABLE_NIGHT_SHIFTS
@@ -685,8 +685,8 @@ BELLY_MIN_SIZE_PREFS 1
 BELLY_MAX_SIZE_PREFS 11
 
 ## Body size configs, the feature will be disabled if both min and max have the same value.
-BODY_SIZE_MIN 0.8
-BODY_SIZE_MAX 1.2
+BODY_SIZE_MIN 0.25
+BODY_SIZE_MAX 10.0
 
 ## Pun-Pun movement slowdown given to characters with a body size smaller than this value,
 ## to compensate for their smaller hitbox.
@@ -698,7 +698,7 @@ THRESHOLD_BODY_SIZE_SLOWDOWN 0.85
 BODY_SIZE_SLOWDOWN_MULTIPLIER 0.25
 
 ## Allows players to set a hexadecimal color of their choice as skin tone, on top of the standard ones.
-#ALLOW_CUSTOM_SKINTONES
+ALLOW_CUSTOM_SKINTONES
 
 ## Enables the FoV component, which hides objects and mobs behind the parent from their sight, unless they turn around, duh.
 ## Camera mobs, AIs, ghosts and some other are of course exempt from this. This also doesn't influence simplemob AI, for the best.
