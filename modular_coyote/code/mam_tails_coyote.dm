@@ -1,12 +1,12 @@
 /datum/sprite_accessory/tails/mam_tails/zorgia
-	name = "Zorgia"
+	name = "Zorgoia"
 	icon_state = "zorgoia"
 	icon = 'icons/mob/mam/coyote/mam_tails.dmi'
 	color_src = MATRIXED
 	matrixed_sections = MATRIX_ALL
 
 /datum/sprite_accessory/tails/human/zorgia
-	name = "Zorgia"
+	name = "Zorgoia"
 	icon_state = "zorgoia"
 	icon = 'icons/mob/mam/coyote/mam_tails.dmi'
 	color_src = MATRIXED
